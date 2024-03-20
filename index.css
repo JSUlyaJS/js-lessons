@@ -1,0 +1,242 @@
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.maket{
+    width: 750px;
+    height: 1250px;
+    margin: auto auto;
+    background-color: white;
+    position: relative;
+    top: 65px;
+    left: 225px;
+    padding: 5px;
+
+    box-shadow: 0 0 4px #000;
+    -webkit-box-shadow: 0 0 14px #000;
+    -moz-box-shadow: 0 0 4px #000;
+}
+.hobbyMaket{
+    width: 1060px;
+    height: 2050px;
+    margin: auto auto;
+    background-color: white;
+    position: relative;
+    top: 65px;
+    padding: 5px;
+
+    box-shadow: 0 0 4px #000;
+    -webkit-box-shadow: 0 0 14px #000;
+    -moz-box-shadow: 0 0 4px #000;
+}
+.dgMaket{
+    width: 650px;
+    height: 950px;
+    margin: auto auto;
+    background-color: white;
+    position: relative;
+    top: 65px;
+    left: 315px;
+    padding: 5px;
+
+    box-shadow: 0 0 4px #000;
+    -webkit-box-shadow: 0 0 14px #000;
+    -moz-box-shadow: 0 0 4px #000;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    top: 0; 
+    width: 447.7px;
+    float: right;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 383.7px;
+    float: right;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50; 
+}*/
+.main{
+    background-image: url(img/luffy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.aboutMe{
+    background-image: url(img/brook.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hobbys{
+    background-image: url(img/sanji.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dMg{
+    background-image: url(img/Roronoa\ Zoro_One\ Piece.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.hi{
+    position: relative;
+    top: 110px;
+    left: 70px;
+}
+.name{
+    font-size: 70px;
+    position: relative;
+    bottom: 90px;
+    color: #fff;
+}
+.zag{
+    font-size: 80px;
+    color: #fff;
+}
+footer{
+    position: relative;
+    top: 190px;
+    font-size: 20px;
+}
+.footerLogo{
+    width: 30px;
+    height: 30px;
+}
+.marginic{
+    position: relative;
+    left: 10px;
+  
+}
+.front{
+    text-align: center;
+}
+.quotes{
+    text-align: right;
+    position: relative;
+    right: 10px;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+}
+#me{
+    width: 180px;
+    height: 300px;
+}
+#me1{
+    width: 200px;
+    height: 300px;
+}
+#me2{
+    width: 200px;
+    height: 300px;
+}
+.tables{
+    text-align: center;
+}
+#chess{
+    width: 400px;
+}
+.aboutChess{
+    position: relative;
+    bottom: 400px;
+    left: 410px;
+    font-size: 20px;
+}
+#music1{
+    width: 300px;
+    position: relative;
+    bottom: 330px;
+}
+#music2{
+    width: 340px;
+    position: relative;
+    bottom: 330px;
+}
+#music3{
+    width: 350px;
+    position: relative;
+    bottom: 330px;
+}
+.sometext{
+    position: relative;
+    bottom: 300px;
+}
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 15px solid #F2F8F8;
+	border-top: 5px solid #F2F8F8;
+	border-collapse: collapse; 
+    position: relative;
+    right: 10px;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #F2F8F8;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+    text-align: left;
+
+}
+.table td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+ 
+}
+#family{
+    width: 550px;
+}
