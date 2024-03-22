@@ -3,7 +3,7 @@ body{
     margin: auto;
 }
 
-.container{
+.block{
     width: 1230px;
     margin: auto;
 }
@@ -33,7 +33,6 @@ body{
 }
 
 .hero{
-    /* height: 100vh; */
     height: 1000px;
     width: 100%;
     background: url(img/backgraund.jpg);
@@ -45,6 +44,7 @@ body{
     display: flex; 
     flex-direction: column;
     align-items: center;
+    margin-top: 120px;
 }
 
 .formTitle{
@@ -57,11 +57,8 @@ body{
     flex-direction: column;
     align-items: center;
     border: 1px solid;
-    /* padding-top: 48px;
-    padding-bottom: 48px;   
-    padding-left: 60px;
-    padding-right: 60px; */
     padding: 48px 60px;
+    margin-top: 120px;
 }
 
 .formData{
@@ -77,4 +74,65 @@ body{
 
 .formInput input{
     padding: 12px 16px;
+}
+.homeworkBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.homeworkItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.serTitle{
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.serSubTitle{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 60px;
+    color: #787A80
+}
+.serItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 285px;
+    height: 285px;
+    justify-content: center;
+}
+.serItems{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    background-color: lightgray;
+    padding-bottom: 80px;
+}
+.serMore{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.serMore button{
+    padding: 0px 40px;
+    height: 62px;
+    font-size: 18px;
+    align-items: center;
+}
+.nadBack{
+    position: relative;
+    top: 500px;
 }
