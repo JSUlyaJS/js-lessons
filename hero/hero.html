@@ -2,21 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleSheet" href="hero.css">
-    <title>Hero</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="hero.css">
 </head>
-<body class="back">
-    <div class="topnav">
-        <a href="#"><img src="img/logo.jpeg" alt="logo"></a>
-        <a href="#">About us</a>
-        <a href="#">Services</a>
-        <a href="#">Work</a>
-        <a href="#">News</a>
-        <a href="#">Contacts</a>
-        <a href="#"><img src="img/phone.jpg" alt="phone">Call us (405) 555-0128</a>
-        <a href="#"><img src="img/chat.jpg" alt="chat">Talk to us hello@createx.com</a>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <img src="img/logo.jpeg" alt="logo">
+                <div class="navbar">
+                    <p>About Us</p>
+                    <p>Services</p>
+                    <p>Work</p>
+                    <p>News</p>
+                    <p>Contacts</p>
+                </div>
+                <div class="contacts">
+                    <div class="contactsItem">
+                        <img src="img/phone.jpg" alt="phone">
+                        <div class="contactsInfo">
+                            <p>Call us</p>
+                            <p>(405) 555-0128</p>
+                        </div>
+                    </div>
+                    <div class="contactsItem">
+                        <img src="img/chat.jpg" alt="email">
+                        <div class="contactsInfo">
+                            <p>Talk to us</p>
+                            <p>hello@createx.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero"></div>
+        <div class="container">
+            <div class="values">
+            <h1>Our core values</h1>
+            <p>Our mission is to set the highest standards for construction sphere.</p>
+            <div>
+                <div>
+                    <img src="" alt="icon">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div>
+                    <img src="" alt="icon">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div>
+                    <img src="" alt="icon">
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+            </div>
+            <div class="form">
+                <p class="formTitle">Want to know more? Ask us a question:</p>
+                <form class="formData">
+                    <div class="formInput">
+                        <label for="nameInput">Name</label>
+                        <input id="nameInput" type="text" placeholder="Your name">
+                    </div>
+                    <div class="formInput">
+                        <label for="phoneInput">Phone</label>
+                        <input id="phoneInput" type="text" placeholder="Your phone">
+                    </div>
+                    <div class="formInput">
+                        <label for="messageInput">Message</label>
+                        <input id="messageInput" type="text" placeholder="Your message">
+                    </div>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+
     </div>
+
 </body>
 </html>
