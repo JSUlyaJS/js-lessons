@@ -105,6 +105,12 @@ body{
     width: 285px;
     height: 285px;
     justify-content: center;
+    background-color: white;
+    transition: background-color 1s ease;
+}
+.serItem:hover{
+    background-color: orange;
+    transition: background-color 1s ease;
 }
 .serItems{
     display: flex;
@@ -126,13 +132,30 @@ body{
     font-size: 28px;
     font-weight: bold;
 }
-.serMore button{
+.serButton{
     padding: 0px 40px;
     height: 62px;
     font-size: 18px;
     align-items: center;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.serButton:hover{
+    background-color: brown;
+    transition: background-color 0.5s ease;
+}
+.serButton:active{
+    background-color: yellow;
 }
 .nadBack{
     position: relative;
     top: 500px;
+}
+.bolder{
+    font-weight: bold;
 }
