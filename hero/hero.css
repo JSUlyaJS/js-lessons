@@ -1,7 +1,7 @@
 @font-face {
     font-family: Ubuntu;
     font-weight: 400;
-    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+    src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
 *{
@@ -16,6 +16,7 @@ body{
     width: 1230px;
     margin: auto;
 }
+
 .header{
     display: flex;
     align-items: center;
@@ -62,14 +63,17 @@ body{
     font-weight: bold;
     font-size: 28px;
 }
-
+.formWrapper{
+    width: 100%;
+    padding-top: 120px;
+    background: linear-gradient(grey 80%, lightgray 80%);
+}
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid;
+    background-color: white;
     padding: 48px 60px;
-    margin-top: 120px;
 }
 
 .formData{
@@ -117,6 +121,7 @@ body{
     font-weight: bold;
     margin: 0;
     margin-bottom: 24px;
+    margin-top: 120px;
 }
 .serSubTitle{
     font-size: 18px;
@@ -148,7 +153,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 120px;
     background-color: lightgray;
     padding-bottom: 80px;
 }
@@ -184,4 +188,7 @@ body{
 }
 .bolder{
     font-weight: bold;
+}
+.const{
+
 }
