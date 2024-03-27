@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Ubuntu;
+    font-weight: 400;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+*{
+    font-family: Ubuntu;
+}
 body{
     margin: 0;
     margin: auto;
@@ -67,15 +76,31 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .formInput{
     display: flex;
     flex-direction: column;
 }
-
+.formInput label{
+    padding-bottom: 12px;
+}
 .formInput input{
     padding: 12px 16px;
+    background-color: #F4F5F6;
+}
+.formData button{
+    padding: 0px 40px;
+    margin-top: 30px;
+    height: 48px;
+    font-size: 18px;
+    background-color: #FF5A30;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 .homeworkBlock{
     display: flex;
@@ -133,19 +158,18 @@ body{
     margin-top: 60px;
     font-size: 28px;
     font-weight: bold;
+    align-items: center;
 }
 .serButton{
-    padding: 0px 40px;
+    padding: 20px 40px;
     height: 62px;
     font-size: 18px;
-    align-items: center;
     background-color: orange;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.5s ease;
-
 }
 .serButton:hover{
     background-color: brown;
