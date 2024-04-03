@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="headerWrapper">
         <div class="block">
             <div class="header">
                 <img src="img/logo.jpeg" alt="logo">
@@ -33,14 +34,30 @@
                             <p>hello@createx.com</p>
                         </div>
                     </div>
+                    
+                </div>
+                <div class="mobileMenu">
+                    <img src="img/icons8-menu.svg" alt="menu">
+                </div>
+            </div>
+            <div class="mobileMenuOpened">
+                <div class="block">
+                    <div class="mobileMenuHeader">
+                        <img src="img/close.svg" alt="close" class="mobileMenuClose">
+                    </div>
+                    <div class="mobileMenuItems">
+                        <p>About Us</p>
+                        <p>Services</p>
+                        <p>Work</p>
+                        <p>News</p>
+                        <p>Contacts</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
         <div class="hero">
             <div class="nadBack">
-                <p>CREATEX</p>
-                <p>CONSTRUCTION</p>
-                <p>Cras ultrices leo vitae non viverra. Fringilla nisi quisque <br> consequat, dignissim vitae proin ipsum sed. Pellentesque nec <br> turpis purus eget pellentesque integer ipsum elementum felis.</p>
             </div>
         </div>
         <div class="block">
@@ -66,57 +83,78 @@
             </div>
             </div>     
         </div>
-    </div>
-    <div class="formWrapper">
-        <div class="block">
-            <div class="form">
-                <p class="formTitle">Want to know more? Ask us a question:</p>
-                <form class="formData">
-                    <div class="formInput">
-                        <label for="nameInput">Name</label>
-                        <input id="nameInput" type="text" placeholder="Your name">
-                    </div>
-                    <div class="formInput">
-                        <label for="phoneInput">Phone</label>
-                        <input id="phoneInput" type="text" placeholder="Your phone">
-                    </div>
-                    <div class="formInput">
-                        <label for="messageInput">Message</label>
-                        <input id="messageInput" type="text" placeholder="Your message">
-                    </div>
-                    <button>SEND</button>
-                </form>
-            </div>
-        </div>
-    </div>   
-    <div class="services">
-        <p class="serTitle">Our services</p>
-        <p class="serSubTitle">Createx Construction Bureau is a construction giant with a full range of construction services.</p>
-        <div class="block">
-            <div class="serItems">
-                <div class="serItem">
-                    <img src="" alt="Item">
-                    <p>Construction</p>
-                </div>
-                <div class="serItem">
-                    <!-- <img src="img/const.jpg" alt="Item" class="const"> -->
-                    <p>Project Develop</p>
-                </div>
-                <div class="serItem">
-                    <img src="" alt="Item">
-                    <p>Interior Design</p>
-                </div>
-                <div class="serItem">
-                    <img src="" alt="Item">
-                    <p>Repairs</p>
+        <div class="formWrapper">
+            <div class="block">
+                <div class="form">
+                    <p class="formTitle">Want to know more? Ask us a question:</p>
+                    <form class="formData">
+                        <div class="formInput">
+                            <label for="nameInput">Name</label>
+                            <input id="nameInput" type="text" placeholder="Your name">
+                        </div>
+                        <div class="formInput">
+                            <label for="phoneInput">Phone</label>
+                            <input id="phoneInput" type="text" placeholder="Your phone">
+                        </div>
+                        <div class="formInput">
+                            <label for="messageInput">Message</label>
+                            <input id="messageInput" type="text" placeholder="Your message">
+                        </div>
+                        <button>SEND</button>
+                    </form>
                 </div>
             </div>
+        </div>   
+        <div class="services">
+            <p class="serTitle">Our services</p>
+            <p class="serSubTitle">Createx Construction Bureau is a construction giant with a full range of construction services.</p>
+            <div class="block">
+                <div class="serItems">
+                    <div class="serItem">
+                        <img src="" alt="Item">
+                        <p>Construction</p>
+                    </div>
+                    <div class="serItem">
+                        <img src="" alt="Item" class="const">
+                        <p>Project Develop</p>
+                    </div>
+                    <div class="serItem">
+                        <img src="" alt="Item">
+                        <p>Interior Design</p>
+                    </div>
+                    <div class="serItem">
+                        <img src="" alt="Item">
+                        <p>Repairs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="serMore">
+                <p>Learn about our services</p>
+                <button class="serButton">View</button>
+            </div>
         </div>
-        <div class="serMore">
-            <p>Learn about our services</p>
-            <button class="serButton">View</button>
+        <div class="buildings">
+            <div class="block">
+                <p class="buildingsTitle">Browse our selected projects <br>
+                    and learn more about our work</p>
+                <div class="buildingsItems">
+                    <div class="buildingsItem">
+                        <img src="img/redfing.jpg" alt="build" class="buildpic">
+                        <p class="builderText">sometextforex</p>
+                    </div>
+                    <div class="buildingsItem">
+                        <img src="img/blockbuild.jpg" alt="build" class="buildpic">
+                        <p class="builderText">sometextforex</p>
+                    </div>
+                    <div class="buildingsItem">
+                        <img src="img/pencil.jpg" alt="build" class="buildpic">
+                        <p class="builderText">sometextforex</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    
 </body>
 <script src="hero.js"></script>
 </html>
