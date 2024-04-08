@@ -65,7 +65,6 @@ body{
     padding: 8px 0px;
     display: flex;
     justify-content: flex-end;
-
 }
 .mobileMenuItems{
     display: flex;
@@ -227,7 +226,6 @@ body{
     margin: 0;
     margin-bottom: 24px;
     margin-top: 120px;
-
 }
 .buildingsItem{
     display: flex;
@@ -251,12 +249,12 @@ body{
 }
 [data-tooltip] {
     position: relative;  
-   }
-   [data-tooltip]::after {
+}
+[data-tooltip]::after {
     content: attr(data-tooltip); 
     position: absolute; 
     width: 300px;
-    bottom: 50px; right: 50px; /* Положение подсказки */
+    bottom: 50px; right: 50px; 
     background: #fff; 
     color: #000; 
     padding: 0.5em; 
@@ -264,11 +262,11 @@ body{
     cursor: pointer;
     opacity: 0; 
     transition: 1s; 
-   } 
-   [data-tooltip]:hover::after {
-    opacity: 1; /* Показываем подсказку */
-    top: 2em; /* Положение подсказки */
-   }
+}
+[data-tooltip]:hover::after {
+    opacity: 1; 
+    top: 2em; 
+}
 .builderText{
     background-color: white;
     position: relative;
@@ -305,5 +303,87 @@ body{
     }
     .buildingsItems{
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1050px) {
+    .block {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .serItems {
+        flex-direction: column;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .serItem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .serTitle {
+        font-size: 36px;
+        margin-top: 80px;
+    }
+
+    .serSubTitle {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .buildingsItems {
+        flex-direction: column;
+    }
+
+    .buildingsItem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .headerWrapper{
+        padding: 8px 0px;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .formWrapper {
+        padding-top: 80px;
+    }
+
+    .formData {
+        flex-direction: column;
+    }
+
+    .serMore {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .serButton {
+        padding: 16px 32px;
+        font-size: 16px;
+    }
+
+    .buildingsTitle {
+        font-size: 36px;
+        margin-top: 80px;
+    }
+
+    .buildingsItem {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
