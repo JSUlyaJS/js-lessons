@@ -13,6 +13,22 @@ mobileMenuClose.addEventListener("click", function(){
     document.body.classList.remove("overflowHidden")
 })
 
+let color = prompt("Введите цвет светофора (красный, желтый или зеленый):").toLowerCase();
+
+switch (color) {
+    case "красный":
+        alert("Стой!");
+        break;
+    case "желтый":
+        alert("Жди!");
+        break;
+    case "зеленый":
+        alert("Иди!");
+        break;
+    default:
+        alert("Некорректный цвет!");
+        break;
+}
 
 
 const servicesData = [
