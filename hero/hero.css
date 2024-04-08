@@ -387,3 +387,8 @@ body{
         margin-bottom: 20px;
     }
 }
+@media (min-width: 1051px) {
+    .mobileMenu {
+        display: none;
+    }
+}
